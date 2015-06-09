@@ -1,0 +1,37 @@
+circle{
+	stroke:#777;
+}
+.node{
+	cursor: pointer;;
+}
+/*status 0*/
+circle .susceptible{
+	fill:#00E5EE;
+}
+/*status 1*/
+circle .mention{
+	fill:#7FFF00;
+}
+/*status 2*/
+circle .retweet{
+	fill:#FF0000;
+}
+/*status 4*/
+circle .infected{
+	fill:#FF0000;
+}
+.new{
+	stroke:#BCEE68;
+	fill:#00E5EE;
+}
+
+.axis path,
+.axis line {
+fill: none;
+stroke: black;
+stroke-width:3;
+}
+.axis text {
+font-family: sans-serif;
+font-size: 11px;
+}
